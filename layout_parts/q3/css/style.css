@@ -7,24 +7,30 @@
   border: 1px solid #dedede;
 }
 
+.q3__table th,
+.q3__table td {
+  padding: 10px;
+  border: 1px solid #dedede;
+  vertical-align: middle;
+}
+
 .q3__table th {
   background-color: #24a;
-  padding: 10px;
   color: #fff;
-  border: 1px solid #dedede;
+  font-size: 18px;
+  line-height: 26px;
 }
 
 .q3__table td {
-  padding: 10px;
   text-align: center;
-  border: 1px solid #dedede;
+  line-height: 22px;
 }
 
-tr:nth-child(odd) {
+.q3__table > tbody > tr:nth-child(even) {
   background-color: #ecf1f2;
 }
 
-tr:last-child {
+.q3__table > tbody > tr:last-child {
   border-top: 2px dashed #000;
 }
 
