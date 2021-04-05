@@ -13,6 +13,10 @@
   width: 100%;
 }
 
+.q4__contents:first-child {
+  margin-top: 0;
+}
+
 .q4__contents__cell {
   display: table-cell;
   padding: 20px 0;
