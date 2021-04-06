@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q2 {
+.first {
   width: 900px;
   margin: 0 auto;
   background-color: #eff3f4;
@@ -31,4 +31,5 @@
 .q2__thumb > img {
   vertical-align: bottom;
 }
+
 /* 回答はここに書いてね */
